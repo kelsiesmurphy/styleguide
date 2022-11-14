@@ -1,7 +1,7 @@
 import './style.css'
 
 document.querySelector('#app').innerHTML = `
-  <div id="main-wrapper">
+  <div class="main-wrapper">
     <section id="typography">
       <header class="section-header">
         <p class="section-header-text">Typography</p>
@@ -113,6 +113,23 @@ document.querySelector('#app').innerHTML = `
           <p class ="text-size-tiny">
             In a world older and more complete than ours, they move finished and complete, gifted with the extension of the senses we have lost or never attained, living by voices we shall never hear. They are not brethren, they are not underlings: they are other nations, caught with ourselves in the net of life and time, fellow prisoners of the splendour and travail of the earth.
           </p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="inputs">
+      <header class="section-header">
+        <p class="section-header-text">Inputs</p>
+      </header>
+      <div class="container-row">
+        <div class="container-left">
+          <p class="tag">H1 Heading</p>
+        </div>
+        <div class="container-right">
+          <form>
+            <input type="text" placeholder="Type here..."></input>
+          </form>
         </div>
       </div>
     </section>

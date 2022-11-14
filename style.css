@@ -133,6 +133,12 @@ body {
   text-align: center;
 }
 
+.main_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -208,6 +214,22 @@ h6 {
   font-size: var(--fs-text-xs);
 }
 
+input {
+  width: 100%;
+  height: 3rem;
+  padding: 12px 14px;
+  color: #667085;
+  border-radius: 8px;
+  border: 1px solid #D0D5DD;
+  box-shadow: 0px 1px 2px 0px #10182805;
+  transition: ease-out all 0.2ms;
+}
+
+input:focus {
+  box-shadow: 0px 0px 0px 4px #98A2B330;
+  outline: none;
+}
+
 .section-header {
   padding: 1rem;
   background-color: #101828;
@@ -227,19 +249,19 @@ h6 {
   flex-direction: row;
   gap: 2rem;
   padding: 1rem;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .container-left {
   min-width: 18rem;
   text-align: left;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .container-right {
   min-width: 18rem;
   text-align: left;
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
 }
 
 .tag {
